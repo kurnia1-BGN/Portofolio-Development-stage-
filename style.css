@@ -10,14 +10,12 @@ body {
     background-color: #f4f4f4;
 }
 
-main {
-    flex: 1;
-}
-
 .opening {
+    position: relative;
     margin: 15%;
     padding-left: 25%;
     text-align: center;
+    z-index: 50;
 }
 
 .tentang-saya {
@@ -27,6 +25,7 @@ main {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 50;
 }
 
 .tentang-saya:hover {
@@ -58,7 +57,7 @@ footer {
     width: 50%;
     position: fixed;
     bottom: -21rem;
-    z-index: 2;
+    z-index: 1;
 }
 
 @media screen and (max-width:768px) {
