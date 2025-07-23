@@ -19,6 +19,7 @@ body {
 }
 
 .tentang-saya {
+    display: inline-block;
     color: white;
     border: none;
     background: red;
@@ -26,6 +27,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     z-index: 50;
+    text-decoration: none;
 }
 
 .tentang-saya:hover {
