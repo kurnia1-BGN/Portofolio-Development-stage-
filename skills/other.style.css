@@ -86,13 +86,21 @@ footer {
         z-index: 0;
     }
 
-    .project-grid {
-        transform: translateY(15%);
+    .skills-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 24px;
         padding: 20px;
+        margin-top: 6rem;
     }
 
+    .skills-card, .skills-card img {
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        transition: transform .3s ease;
+        width: 21rem;
+        height: 10rem;
+}
 }
 
