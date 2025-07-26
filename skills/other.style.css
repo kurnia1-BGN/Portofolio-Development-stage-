@@ -77,15 +77,6 @@ footer {
         height: 0;
     }
 
-    .Man {
-        height: auto;
-        width: 90%;
-        position: fixed;
-        bottom: -12%;
-        left: 10%;
-        z-index: 0;
-    }
-
     .skills-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

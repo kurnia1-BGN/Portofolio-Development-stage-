@@ -104,15 +104,6 @@ footer {
         height: 0;
     }
 
-    .Man {
-        height: auto;
-        width: 90%;
-        position: fixed;
-        bottom: -12%;
-        left: 10%;
-        z-index: 0;
-    }
-
     .project-grid {
         transform: translateY(15%);
         display: grid;
